@@ -1,3 +1,7 @@
+/*Josh Burak, Alexander Gadanidis, Kat Pinto, Matthew Sadecki
+10169785 , 10186175, 10168919 , 10179995
+FINAL*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
