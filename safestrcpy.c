@@ -13,3 +13,17 @@ char* safestrcat(char *a, char *b){
 	return result;
 }
 
+int substring(char *source, int from, int n, char *target){
+        int j = 0;
+        int tester = strlen(target);
+        for (int i = from; i < n; i++){
+                target[tester+j] = source[i];
+                j++;
+        }
+        if (strlen(target) > tester){
+                return 0;
+        }
+        else{
+                return -1;
+        }
+}
