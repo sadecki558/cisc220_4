@@ -27,3 +27,19 @@ int substring(char *source, int from, int n, char *target){
                 return -1;
         }
 }
+
+int main(int argc, char *argv[]){
+	char *a, char *b = "";
+	printf("Enter string 1 and 2 for safestrcpy function seperated by a space:\n");
+	scanf("%128s%128s", *a,*b);
+	string *c = "";
+	*c=safestrcat(*a,*b);
+	char *source, char *target = "";
+	int from, int n = 0;
+	printf("Enter source string and target string for substring function seperated by space:\n");
+	scanf("%128s%128s", *source, *target);
+	printf("Enter integer from and integer n for substring function seperated by space:\n");
+	scanf("%d%d",from,n);
+	int d = 0;
+	d = substring(char *source, int from, int n, char *target);
+}
